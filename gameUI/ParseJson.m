@@ -210,6 +210,34 @@
 //                NSLog(@"%d.............",[array count]);
             }
         }
+        if([key isEqual:@"gravity"])
+        {
+            NSArray *array = [dic objectForKey:key];
+            for(int i= 0; i<[array count]; i++)
+            {
+                KeyBean *keyBean = [ParseJson parseKeyBean:[array objectAtIndex:i]];
+                [[gameInfo gravity] addObject:keyBean];
+            }
+        }
+        if([key isEqual:@"none_full_touch"])
+        {
+            NSArray *array = [dic objectForKey:key];
+            for(int i= 0; i<[array count]; i++)
+            {
+                KeyBean *keyBean = [ParseJson parseKeyBean:[array objectAtIndex:i]];
+                [[gameInfo gravity] addObject:keyBean];
+            }
+        }        if([key isEqual:@"gravity"])
+        if([key isEqual:@"full_touch"])
+        {
+            NSArray *array = [dic objectForKey:key];
+            for(int i= 0; i<[array count]; i++)
+            {
+                KeyBean *keyBean = [ParseJson parseKeyBean:[array objectAtIndex:i]];
+                [[gameInfo gravity] addObject:keyBean];
+            }
+        }
+        
     }
     return (gameInfo);
 }

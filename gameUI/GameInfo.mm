@@ -66,7 +66,9 @@
     [itunes_updatetime release];
     [super dealloc];
 }
-
+@synthesize  full_touch;
+@synthesize  none_full_touch;
+@synthesize  gravity;
 @synthesize  press;
 @synthesize  game_id;
 @synthesize  action;

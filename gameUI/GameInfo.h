@@ -57,13 +57,17 @@
     NSString *itunes_updatetime;
     
     NSMutableArray *press;
-    
+    NSMutableArray *none_full_touch;
+    NSMutableArray *full_touch;
+    NSMutableArray *gravity;
 
 }
 - (GameInfo*)init;
 
 //- (id) fetchGameInfo: (NSString*)game_id;
-
+@property  (retain,nonatomic)  NSMutableArray *gravity;
+@property  (retain,nonatomic)  NSMutableArray *none_full_touch;
+@property  (retain,nonatomic)  NSMutableArray *full_touch;
 @property  (retain,nonatomic)  NSMutableArray *press;
 @property  (retain,nonatomic)  NSString *game_id;
 @property  (retain,nonatomic)  NSNumber *action;

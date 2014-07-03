@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="11E53" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="deh-cJ-nm9">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="deh-cJ-nm9">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
@@ -4647,210 +4647,21 @@
         <image name="zy_zhongxin.png" width="119" height="83"/>
         <image name="zy_zhuyaokong.png" width="34" height="54"/>
     </resources>
-    <classes>
-        <class className="AllGame" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/AllGame.h"/>
-            <relationships>
-                <relationship kind="action" name="ClickAllGame:"/>
-                <relationship kind="action" name="ClickRedGame:"/>
-                <relationship kind="action" name="ClickStreeGame:"/>
-                <relationship kind="action" name="hongGame:"/>
-                <relationship kind="action" name="jieGame:"/>
-                <relationship kind="action" name="suoGame:"/>
-                <relationship kind="action" name="xinGame:"/>
-                <relationship kind="outlet" name="allGameButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="gameLabelName" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="redGameButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="streetGameButton" candidateClass="UIButton"/>
-            </relationships>
-        </class>
-        <class className="AndroidGame" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/AndroidGame.h"/>
-            <relationships>
-                <relationship kind="action" name="CilkeGameFun:"/>
-                <relationship kind="action" name="Clickzhend:"/>
-                <relationship kind="action" name="ClikeGameNo:"/>
-                <relationship kind="action" name="ClikeHandFun:"/>
-                <relationship kind="action" name="ClikeHandNo:"/>
-                <relationship kind="action" name="ClikeNoVoic:"/>
-                <relationship kind="action" name="ClikeNoVoicHand:"/>
-                <relationship kind="action" name="ClikeReturnGame:"/>
-                <relationship kind="action" name="ClikeReturnGameHand:"/>
-                <relationship kind="action" name="ClikeVoicMAXDown:"/>
-                <relationship kind="action" name="ClikeVoicMaxDown:"/>
-                <relationship kind="action" name="ClikeVoicMaxHand:"/>
-                <relationship kind="action" name="ClikeVoicMaxHandUp:"/>
-                <relationship kind="action" name="ClikeVoicMaxUp:"/>
-                <relationship kind="action" name="ClikeVoicMinHandDown:"/>
-                <relationship kind="action" name="ClikeVoicMinHandUp:"/>
-                <relationship kind="action" name="ClikeVoicMinUp:"/>
-                <relationship kind="action" name="ClikezhenHand:"/>
-                <relationship kind="action" name="NoHand:"/>
-                <relationship kind="action" name="OKHand:"/>
-                <relationship kind="action" name="OkHandDown:"/>
-                <relationship kind="outlet" name="GameBackgroundImage" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="GameMaxView" candidateClass="UIView"/>
-                <relationship kind="outlet" name="Gameview" candidateClass="UIView"/>
-                <relationship kind="outlet" name="Hand" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="HandDownOk" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="HandMaxView" candidateClass="UIView"/>
-                <relationship kind="outlet" name="HandTou" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="HandView" candidateClass="UIView"/>
-                <relationship kind="outlet" name="NOVoic" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="NoVoicHand" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="ReturnGame" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="ReturnGameHand" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="VoicMAXHAND" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="VoicMax" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="VoicMaxHand" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="VoiceMin" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="shakeBUtton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="shakeButtonHand" candidateClass="UIButton"/>
-            </relationships>
-        </class>
-        <class className="HORViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/HORViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="ClickNO:"/>
-                <relationship kind="action" name="ClickOK:"/>
-                <relationship kind="action" name="clikeAddButtonDown:"/>
-                <relationship kind="action" name="clikeAddButtonUpOut:"/>
-                <relationship kind="action" name="clikeCutButtonDown:"/>
-                <relationship kind="action" name="clikeFunction:"/>
-                <relationship kind="action" name="clikeGame:"/>
-                <relationship kind="action" name="clikeGameDown:"/>
-                <relationship kind="action" name="clikeInsert:"/>
-                <relationship kind="action" name="clikeInsertDown:"/>
-                <relationship kind="action" name="clikeMenu:"/>
-                <relationship kind="action" name="clikeOut:"/>
-                <relationship kind="action" name="clikeSystem:"/>
-                <relationship kind="action" name="clikeVibration:"/>
-                <relationship kind="action" name="clikeVoice:"/>
-                <relationship kind="action" name="deddd:"/>
-                <relationship kind="action" name="returnTop:"/>
-                <relationship kind="outlet" name="Finger" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="HOR" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="TouchTablet" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="bottom2" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="buttonAddVoice" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="buttonConncet" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="buttonCutVoice" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="buttonMenu" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="buttonMouse" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="buttonOut" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="buttonSystem" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="functionButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="gameButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="imageMouse" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="insertButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="lockerButtonVibration" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="lockerButtonVoice" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="lockerView" candidateClass="UIView"/>
-            </relationships>
-        </class>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-        <class className="NSTimer" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSTimer.h"/>
-        </class>
-        <class className="connecTV" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/connecTV.h"/>
-            <relationships>
-                <relationship kind="action" name="returnLay:"/>
-                <relationship kind="outlet" name="PromptButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="PromptLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="rotateImage" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="rotateLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="rotateView" candidateClass="UIView"/>
-            </relationships>
-        </class>
-        <class className="gameIntroduce" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/gameIntroduce.h"/>
-            <relationships>
-                <relationship kind="outlet" name="gameLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="gameName" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="gameSize" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="gameState" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="headImage" candidateClass="UIImageView"/>
-            </relationships>
-        </class>
-        <class className="myXYZViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/myXYZViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="ClickCloseMouse2:"/>
-                <relationship kind="action" name="ClickCloseNullMouse:"/>
-                <relationship kind="action" name="ClickConnect:"/>
-                <relationship kind="action" name="ClickGameCentre:"/>
-                <relationship kind="action" name="ClickHelp:"/>
-                <relationship kind="action" name="ClickLord:"/>
-                <relationship kind="action" name="ClickMoreBtton:"/>
-                <relationship kind="action" name="ClickMuen:"/>
-                <relationship kind="action" name="ClickMyGame:"/>
-                <relationship kind="action" name="ClickNoClose:"/>
-                <relationship kind="action" name="ClickNoNullmao:"/>
-                <relationship kind="action" name="ClickOpinion:"/>
-                <relationship kind="action" name="ClickReturn:"/>
-                <relationship kind="action" name="ClickTouch:"/>
-                <relationship kind="action" name="ClickVersions:"/>
-                <relationship kind="action" name="ClickYesClose:"/>
-                <relationship kind="action" name="ClickconncetNonullmao:"/>
-                <relationship kind="action" name="ClickremoteConncetBtton:"/>
-                <relationship kind="action" name="ClickremoteMaxDown:"/>
-                <relationship kind="action" name="ClickremoteMaxUp:"/>
-                <relationship kind="action" name="ClickremoteMinDown:"/>
-                <relationship kind="action" name="ClickremoteMinUp:"/>
-                <relationship kind="action" name="ClickremoteShutDown:"/>
-                <relationship kind="action" name="ClickremoteShutUp:"/>
-                <relationship kind="action" name="ClickremoteVoiceDown:"/>
-                <relationship kind="action" name="ClickremoteVoiceUp:"/>
-                <relationship kind="action" name="nullMouseReturn:"/>
-                <relationship kind="action" name="packLocker:"/>
-                <relationship kind="outlet" name="ClickremoteConncet" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="MoreBttonu" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="buttonConnect" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="buttonHelp" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="buttonOpinion" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="buttonVersions" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="closeView" candidateClass="UIView"/>
-                <relationship kind="outlet" name="labelImage" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="labelNTv" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="loadImage" candidateClass="UIView"/>
-                <relationship kind="outlet" name="lockerView" candidateClass="UIView"/>
-                <relationship kind="outlet" name="lordView" candidateClass="UIView"/>
-                <relationship kind="outlet" name="nameTV" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="nullMouseConncetButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="progress" candidateClass="UIProgressView"/>
-                <relationship kind="outlet" name="remoteMaxButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="remoteMinButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="remoteShutButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="remoteVoiceButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="rotaeLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="rotateImage" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="rotateView" candidateClass="UIView"/>
-                <relationship kind="outlet" name="t_timer" candidateClass="NSTimer"/>
-                <relationship kind="outlet" name="touFrame" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="touShake" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="touVoice" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="vacancy1" candidateClass="UIImageView"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="Dwj-FG-0Mb"/>
-        <segue reference="1VV-Qw-PPK"/>
-        <segue reference="Yx2-ls-AJq"/>
-        <segue reference="LcZ-Xl-HAh"/>
-        <segue reference="59G-3V-Udh"/>
-        <segue reference="kof-1E-rd1"/>
+        <segue reference="TkY-1h-6Q2"/>
+        <segue reference="5Fo-dg-Ung"/>
+        <segue reference="5sR-fH-dtT"/>
+        <segue reference="hYh-H4-1yd"/>
         <segue reference="BCW-UF-o5h"/>
+        <segue reference="LcZ-Xl-HAh"/>
+        <segue reference="PWK-CN-khg"/>
+        <segue reference="q13-9B-Pog"/>
         <segue reference="vgF-uB-jfI"/>
         <segue reference="Rgk-1o-IUl"/>
-        <segue reference="1M2-dh-JaN"/>
     </inferredMetricsTieBreakers>
 </document>
